@@ -1,0 +1,110 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    animation: bgFadeIn 1.5s ease-in-out;
+}
+
+@keyframes bgFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.02);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeInUp 1.2s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+    animation: fadeText 1.5s ease-in;
+}
+
+@keyframes fadeText {
+    from {
+        opacity: 0;
+        letter-spacing: 1px;
+    }
+    to {
+        opacity: 1;
+        letter-spacing: normal;
+    }
+}
+
+.header-contents p {
+    color: white;
+    font-size: 1vw;
+    line-height: 1.5;
+    opacity: 0.9;
+    animation: fadeText 2s ease-in;
+}
+
+.header-contents button {
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.header-contents button:hover {
+    background-color: #ff7f50;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(255, 127, 80, 0.4);
+}
+
+@media (max-width: 1050px) {
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-contents {
+        max-width: 65%;
+    }
+    .header-contents p {
+        display: none;
+    }
+    .header-contents button {
+        padding: 2vw 4vw;
+    }
+}
+
+
+
