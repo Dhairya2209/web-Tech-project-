@@ -6,7 +6,6 @@ We will create the user authentication system so that anyone can create an accou
 We will create the shopping cart functionality so that user can add food items in their cart and order food from this app. We will also integrate the Stripe payment gateway to place the order and with online payment. Then we will create the order status update features also.
  
 ![1722576618822](https://github.com/user-attachments/assets/3b0f10b7-dcca-4afd-acaa-61d1cc842406)
-![1722576618532](https://github.com/user-attachments/assets/a1fd233a-20e5-413c-a26a-5b3c553f6570)
 ![1722576615830](https://github.com/user-attachments/assets/62979ae3-2876-444c-8982-58e81e682b37)
 ![1722576622132](https://github.com/user-attachments/assets/1e013722-1b11-4f66-b53a-9f5ef7325943)
 ![1722576622077](https://github.com/user-attachments/assets/86865f6f-6bdf-4581-8089-23e3c03af013)
