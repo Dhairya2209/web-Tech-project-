@@ -50,7 +50,13 @@ const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   return (
     <>
-      {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
+      {/* {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>} */}
+      {showLogin && (
+  <>
+    <div className="login-popup-overlay" onClick={() => setShowLogin(false)} />
+    <LoginPopup setShowLogin={setShowLogin} />
+  </>
+)}
       <div className="app">
         <Navbar setShowLogin={setShowLogin} />
         <ScrollToTop /> {/* Include ScrollToTop here */}
