@@ -28,3 +28,21 @@ GrubGo is a modern, responsive food delivery application built using **React + V
 ```bash
 git clone https://github.com/Dhairya2209/web-tech-project-.git
 cd web-tech-project-
+
+# 🚀 Start the Servers for Campus Club Event Manager
+
+Follow the steps below to get all parts of the application running on your local machine.
+
+## 📦 1. Start the Backend Server
+
+cd backend
+npm run server
+
+## 🌐 2. Start the Frontend Server
+cd frontend
+npm run dev
+
+## 🛠️ 3. Start the Admin Panel Server
+cd admin
+npm run dev
+
