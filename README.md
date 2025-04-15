@@ -7,8 +7,3 @@ We will create the shopping cart functionality so that user can add food items i
  
 ![1722576618822](https://github.com/user-attachments/assets/3b0f10b7-dcca-4afd-acaa-61d1cc842406)
 ![1722576615830](https://github.com/user-attachments/assets/62979ae3-2876-444c-8982-58e81e682b37)
-![1722576622132](https://github.com/user-attachments/assets/1e013722-1b11-4f66-b53a-9f5ef7325943)
-![1722576622077](https://github.com/user-attachments/assets/86865f6f-6bdf-4581-8089-23e3c03af013)
-![1722576621290](https://github.com/user-attachments/assets/021a5175-87bf-460f-aae7-8198e6d7e890)
-![1722576621147](https://github.com/user-attachments/assets/c5751cf1-5575-40d8-8051-206bfd274ac6)
-![1722576620360](https://github.com/user-attachments/assets/2ecb23dd-9e7b-4924-b78d-072787980cf2)
