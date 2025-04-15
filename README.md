@@ -20,16 +20,6 @@ GrubGo is a modern, responsive food delivery application built using **React + V
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page]("C:\Users\pbmai\Desktop\homepage.png")
-
-### 🛒 Cart View
-![Cart](./path-to-image/cart.png)
-
-
-
 
 
 ## 🛠️ Installation
