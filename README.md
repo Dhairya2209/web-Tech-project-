@@ -25,6 +25,7 @@ GrubGo is a modern, responsive food delivery application built using **React + V
 ## 🛠️ Installation
 
 1. **Clone the repository**
+```bash
 git clone https://github.com/Dhairya2209/web-tech-project-.git
 cd web-tech-project-
 
